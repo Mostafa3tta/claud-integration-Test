@@ -1,0 +1,19 @@
+{
+  "name": "mostafa3tta",
+  "owner": {
+    "name": "Mostafa Atta",
+    "url": "https://github.com/Mostafa3tta"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for mobile test automation."
+  },
+  "plugins": [
+    {
+      "name": "maestro-scenario",
+      "source": "./",
+      "description": "Test cases → tracked sheet → Maestro flows that Claude writes, runs and fixes until they pass.",
+      "version": "1.0.0",
+      "category": "testing"
+    }
+  ]
+}

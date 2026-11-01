@@ -1,0 +1,19 @@
+Case ID,Module,Title,Preconditions,Steps,Expected Result,Priority
+LOGIN-01,Login,Login with a valid account,User has a registered test account,"1. Open the app
+2. Open Login
+3. Enter the test email and password
+4. Tap Sign in",The home screen is shown and the profile shows the user's name,High
+LOGIN-02,Login,Login with a wrong password,,"1. Open Login
+2. Enter a registered email and a wrong password
+3. Tap Sign in",An error message says the password is incorrect and the user stays on Login,High
+LOGIN-03,Login,Sign in button is disabled with empty fields,,"1. Open Login
+2. Leave email and password empty",Sign in cannot be tapped (disabled) or shows required-field errors,Medium
+SEARCH-01,Search,Search returns matching results,,"1. Open Search
+2. Type a word that exists in the catalog
+3. Submit",Results are shown and each result contains the search word,High
+SEARCH-02,Search,Search with no results,,"1. Open Search
+2. Type a random string like zzqxw
+3. Submit",An empty-state message is shown instead of a blank list,Medium
+SETTINGS-01,Settings,Change the app language,,"1. Open Settings
+2. Choose another language
+3. Relaunch the app",All screens use the chosen language after relaunch,Low

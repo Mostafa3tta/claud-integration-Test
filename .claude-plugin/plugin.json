@@ -1,0 +1,13 @@
+{
+  "name": "maestro-scenario",
+  "version": "1.0.0",
+  "description": "Turn your team's test cases (Excel, Word, CSV, PDF or a Google link) into a tracked sheet, then let Claude write, run and fix a Maestro flow for any case until it passes, recording the result live on the sheet. Android and iOS; Flutter, React Native or native.",
+  "author": {
+    "name": "Mostafa Atta",
+    "url": "https://github.com/Mostafa3tta"
+  },
+  "homepage": "https://github.com/Mostafa3tta/claud-integration-Test",
+  "repository": "https://github.com/Mostafa3tta/claud-integration-Test",
+  "license": "MIT",
+  "keywords": ["maestro", "mobile-testing", "e2e", "flutter", "react-native", "android", "ios", "qa", "test-automation"]
+}
